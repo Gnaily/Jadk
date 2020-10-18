@@ -1,2 +1,2 @@
-# Template-maven-multi-module
-Template for maven multi-module project
+# Jadk
+Jadk is java application development kit!

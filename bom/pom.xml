@@ -7,15 +7,17 @@
 
     <parent>
         <groupId>org.template</groupId>
-        <artifactId>xx-project</artifactId>
+        <artifactId>jadk-project</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-
-    <artifactId>xx-bom</artifactId>
+    <name>[01]bom</name>
+    <artifactId>jadk-bom</artifactId>
     <packaging>pom</packaging>
+
     <description>
-        内部模块版本统一管理
+        Bill of inner modules.
+        Manage all inner modules here.
     </description>
 
 
@@ -23,14 +25,10 @@
         <dependencies>
             <dependency>
                 <groupId>org.template</groupId>
-                <artifactId>xx-y</artifactId>
+                <artifactId>jadk-core</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
-            <dependency>
-                <groupId>org.template</groupId>
-                <artifactId>xx-z</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
